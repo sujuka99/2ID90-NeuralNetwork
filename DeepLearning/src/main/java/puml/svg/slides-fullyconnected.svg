@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="520px" preserveAspectRatio="none" style="width:1235px;height:520px;" version="1.1" viewBox="0 0 1235 520" width="1235px" zoomAndPan="magnify">
+    <defs>
+        <filter height="300%" id="f18mhg1zk5eclk" width="300%" x="-1" y="-1">
+            <feGaussianBlur result="blurOut" stdDeviation="2.0"/>
+            <feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/>
+            <feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/>
+            <feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/>
+        </filter>
+    </defs>
+    <g>
+        <!--class FullyConnected-->
+        <rect fill="#FFC0CB" filter="url(#f18mhg1zk5eclk)" height="99.2188" style="stroke: #A80036; stroke-width: 1.5;" width="225" x="452.5" y="116"/>
+        <rect fill="#FFC0CB" height="32" style="stroke: #A80036; stroke-width: 1.5;" width="225" x="452.5" y="116"/>
+        <ellipse cx="513.25" cy="132" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M516.2188,137.6406 Q515.6406,137.9375 515,138.0859 Q514.3594,138.2344 513.6563,138.2344 Q511.1563,138.2344 509.8359,136.5859 Q508.5156,134.9375 508.5156,131.8125 Q508.5156,128.6875 509.8359,127.0313 Q511.1563,125.375 513.6563,125.375 Q514.3594,125.375 515.0078,125.5313 Q515.6563,125.6875 516.2188,125.9844 L516.2188,128.7031 Q515.5938,128.125 515,127.8516 Q514.4063,127.5781 513.7813,127.5781 Q512.4375,127.5781 511.75,128.6484 Q511.0625,129.7188 511.0625,131.8125 Q511.0625,133.9063 511.75,134.9766 Q512.4375,136.0469 513.7813,136.0469 Q514.4063,136.0469 515,135.7734 Q515.5938,135.5 516.2188,134.9219 L516.2188,137.6406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="95" x="533.75" y="136.1543">FullyConnected</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="453.5" x2="676.5" y1="148" y2="148"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="108" x="458.5" y="162.2104">int inputs, outputs;</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="133" x="458.5" y="175.0151">INDArray bias, weights;</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="213" x="458.5" y="187.8198">INDArray biasUpdate, weightsUpdate;</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="192" x="458.5" y="200.6245">INDArray lastInput, lastPreOutput;</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="453.5" x2="676.5" y1="207.2188" y2="207.2188"/>
+        <!--class Layer-->
+        <rect fill="#FEFECE" filter="url(#f18mhg1zk5eclk)" height="48" style="stroke: #A80036; stroke-width: 1.5;" width="65" x="532.5" y="8"/>
+        <ellipse cx="547.5" cy="24" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M550.4688,29.6406 Q549.8906,29.9375 549.25,30.0859 Q548.6094,30.2344 547.9063,30.2344 Q545.4063,30.2344 544.0859,28.5859 Q542.7656,26.9375 542.7656,23.8125 Q542.7656,20.6875 544.0859,19.0313 Q545.4063,17.375 547.9063,17.375 Q548.6094,17.375 549.2578,17.5313 Q549.9063,17.6875 550.4688,17.9844 L550.4688,20.7031 Q549.8438,20.125 549.25,19.8516 Q548.6563,19.5781 548.0313,19.5781 Q546.6875,19.5781 546,20.6484 Q545.3125,21.7188 545.3125,23.8125 Q545.3125,25.9063 546,26.9766 Q546.6875,28.0469 548.0313,28.0469 Q548.6563,28.0469 549.25,27.7734 Q549.8438,27.5 550.4688,26.9219 L550.4688,29.6406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="33" x="561.5" y="28.1543">Layer</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="533.5" x2="596.5" y1="40" y2="40"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="533.5" x2="596.5" y1="48" y2="48"/>
+        <polygon fill="#FBFB77" filter="url(#f18mhg1zk5eclk)" points="6,275,6,511.9922,368,511.9922,368,285,358,275,6,275" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#FBFB77" points="6,275,6,511.9922,368,511.9922,368,293,482.5134,215.2538,368,285,368,285,358,275,6,275" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="358" x2="358" y1="275" y2="285"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="368" x2="358" y1="285" y2="285"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="43" x="12" y="292.0669">Tensor</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="69" x="59" y="292.0669">inference</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="68" x="128" y="292.0669">(Tensor in)</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="0" x="20" y="307.1997"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="292" x="20" y="307.1997">// duplicate input, needed by backprop</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="0" x="20" y="322.3325"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="10" x="20" y="322.3325">if</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="315" x="34" y="322.3325">(inTrainingMode) lastInput = in.getValues().dup();</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="0" x="20" y="337.4653"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="0" x="20" y="352.5981"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="312" x="20" y="352.5981">// weights: inputs x outputs; bias: outputs</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="214" x="20" y="367.731">INDArray z := in * weights  + bias</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="0" x="20" y="382.8638"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="0" x="20" y="397.9966"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="262" x="20" y="397.9966">// duplicate z, needed by backprop</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="0" x="20" y="413.1294"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="10" x="20" y="413.1294">if</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="270" x="34" y="413.1294">(inTrainingMode) lastPreOutput := z.dup();</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="0" x="20" y="428.2622"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="0" x="20" y="443.395"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="324" x="20" y="443.395">// apply activation function to elements of z</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="99" x="20" y="458.5278">f.activation( z );</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="0" x="112" y="473.6606"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="0" x="20" y="488.7935"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="186" x="20" y="488.7935">// return inference tensor</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="0" x="20" y="503.9263"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="80" x="20" y="503.9263">return new</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="59" x="104" y="503.9263">Tensor(z,</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="30" x="167" y="503.9263">new</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="152" x="201" y="503.9263">TensorShape(outputs));</text>
+        <polygon fill="#FBFB77" filter="url(#f18mhg1zk5eclk)" points="403.5,275,403.5,511.9922,726.5,511.9922,726.5,285,716.5,275,403.5,275" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#FBFB77" points="403.5,275,403.5,511.9922,726.5,511.9922,726.5,285,716.5,275,569,275,565,215.2538,561,275,403.5,275" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="716.5" x2="716.5" y1="275" y2="285"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="726.5" x2="716.5" y1="285" y2="285"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="57" x="409.5" y="292.0669">INDArray</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="127" x="470.5" y="292.0669">backpropagation</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="102" x="597.5" y="292.0669">(INDArray dLda)</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="146" x="417.5" y="307.1997">INDArray x: = lastInput</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="183" x="417.5" y="322.3325">INDArray z := lastPreOutput;</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="107" x="604.5" y="322.3325">// z := x W + b</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="0" x="417.5" y="337.4653"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="0" x="417.5" y="352.5981"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="219" x="417.5" y="352.5981">// backprop activation: a=f(z)</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="293" x="417.5" y="367.731">INDArray dLdz := f.backpropagation(z, dLda );</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="0" x="417.5" y="382.8638"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="0" x="417.5" y="397.9966"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="194" x="417.5" y="397.9966">// calculate weight update</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="292" x="417.5" y="413.1294">weightsUpdate := dLdz * x  +  weightsUpdate</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="0" x="417.5" y="428.2622"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="0" x="417.5" y="443.395"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="175" x="417.5" y="443.395">// calculate bias update</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="218" x="417.5" y="458.5278">biasUpdate := dLdz + biasUpdate</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="0" x="417.5" y="473.6606"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="0" x="417.5" y="488.7935"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="267" x="417.5" y="488.7935">// loss derivative dLdx for next layer</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="0" x="417.5" y="503.9263"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="45" x="417.5" y="503.9263">return</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="111" x="470.5" y="503.9263">dLdz * weights^T</text>
+        <polygon fill="#FBFB77" filter="url(#f18mhg1zk5eclk)" points="761.5,313,761.5,474.3281,1226.5,474.3281,1226.5,323,1216.5,313,761.5,313" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#FBFB77" points="761.5,313,761.5,474.3281,1226.5,474.3281,1226.5,323,1216.5,313,846.2354,313,658.3511,215.1132,838.2354,313,761.5,313" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="1216.5" x2="1216.5" y1="313" y2="323"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="1226.5" x2="1216.5" y1="323" y2="323"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="150" x="767.5" y="330.0669">UpdateFunction bu, wu;</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="93" x="767.5" y="345.1997">updateLayer</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="5" x="860.5" y="345.1997">(</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="409" x="783.5" y="360.3325">Supplier&lt;UpdateFunction&gt; suf, float learningRate, int batchSize</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="5" x="767.5" y="375.4653">)</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="0" x="783.5" y="390.5981"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="307" x="783.5" y="390.5981">// at the first call create update functions</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="0" x="783.5" y="405.731"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="10" x="783.5" y="405.731">if</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="171" x="797.5" y="405.731">(bu==null) bu := suf.get();</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="10" x="972.5" y="405.731">if</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="173" x="986.5" y="405.731">(wu==null) wu := suf.get();</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="0" x="771.5" y="420.8638"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="0" x="783.5" y="435.9966"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="399" x="783.5" y="435.9966">// use update functions to update weights and biases</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="395" x="783.5" y="451.1294">bu.update(bias   , true , learningRate, batchSize, biasUpdate);</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="428" x="783.5" y="466.2622">wu.update(weights, false, learningRate, batchSize, weightsUpdate);</text>
+        <path d="M565,76.4973 C565,89.101 565,102.9 565,115.7903 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="none" points="558.0001,76.1759,565,56.1758,572.0001,76.1758,558.0001,76.1759" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <!--
+@startuml
+class FullyConnected #pink {
+   int inputs, outputs;
+   INDArray bias, weights;
+   INDArray biasUpdate, weightsUpdate;
+   INDArray lastInput, lastPreOutput;
+}
+
+Layer  <|- - FullyConnected
+FullyConnected <|- - SimpleOutput 
+FullyConnected <|- - OutputSoftmax 
+note bottom of FullyConnected
+Tensor <b>inference</b>(Tensor in)
+  <b>// duplicate input, needed by backprop</b>
+  <b>if</b> (inTrainingMode) lastInput = in.getValues().dup();
+  
+  <b>// weights: inputs x outputs; bias: outputs</b>
+  INDArray z := in * weights  + bias
+  
+  <b>// duplicate z, needed by backprop</b>
+  <b>if</b> (inTrainingMode) lastPreOutput := z.dup();
+  
+  <b>// apply activation function to elements of z</b>
+  f.activation( z ); 
+                         
+  <b>// return inference tensor</b>
+  <b>return new</b> Tensor(z, <b>new</b> TensorShape(outputs));
+end note
+note bottom of FullyConnected
+INDArray <b>backpropagation</b>(INDArray dLda)
+  INDArray x: = lastInput
+  INDArray z := lastPreOutput; <b>// z := x W + b</b>
+  
+  <b>// backprop activation: a=f(z)</b>
+  INDArray dLdz := f.backpropagation(z, dLda );
+  
+  <b>// calculate weight update</b>
+  weightsUpdate := dLdz * x  +  weightsUpdate
+  
+  <b>// calculate bias update</b>
+  biasUpdate := dLdz + biasUpdate  
+  
+  <b>// loss derivative dLdx for next layer</b>
+  <b>return</b>  dLdz * weights^T
+end note
+note bottom of FullyConnected
+UpdateFunction bu, wu;
+<b>updateLayer</b>(
+    Supplier<UpdateFunction> suf, float learningRate, int batchSize
+)
+    <b>// at the first call create update functions</b>
+    <b>if</b> (bu==null) bu := suf.get(); <b>if</b> (wu==null) wu := suf.get();
+
+    <b>// use update functions to update weights and biases </b>
+    bu.update(bias   , true , learningRate, batchSize, biasUpdate);
+    wu.update(weights, false, learningRate, batchSize, weightsUpdate);
+end note
+hide SimpleOutput
+hide OutputSoftmax
+@enduml
+
+PlantUML version 2017.11(Wed Apr 19 18:18:59 CEST 2017)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 1.8.0_171-b11
+Operating System: Linux
+OS Version: 4.20.14-100.fc28.x86_64
+Default Encoding: UTF-8
+Language: en
+Country: US
+-->
+    </g>
+</svg>

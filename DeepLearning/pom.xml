@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <name>2ID90-DeepLearning </name>
+    <description>Deep learning library for Artificial Intelligence course 2ID90.</description>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>nl.tue.s2id90</groupId>
+    <artifactId>dl</artifactId>
+    <version>1.1</version>
+    <packaging>jar</packaging>
+    <organization>
+        <name>Technische Universiteit Eindhoven</name>
+        <url>http://www.tue.nl</url>
+    </organization>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>2.3.2</version>
+                <configuration>
+                    <debug>true</debug>
+                </configuration>
+            </plugin>
+            
+            <!--make javafx available-->
+            <plugin>
+                <groupId>org.openjfx</groupId>
+                <artifactId>javafx-maven-plugin</artifactId>
+                <version>0.0.4</version>
+                <configuration>
+                    <mainClass>HelloFX</mainClass>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>13</maven.compiler.source>
+        <maven.compiler.target>13</maven.compiler.target>
+        <!--<nd4j.version>0.9.1</nd4j.version>-->
+        <!-- DO NOT update beyond to version higher than 1.0.0-beta3 -->
+        <nd4j.version>1.0.0-beta3</nd4j.version>
+        <!--<nd4j.backend>nd4j-cuda-8.0-platform</nd4j.backend>-->
+        
+        <javafx.version>13</javafx.version>
+    </properties>
+    
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple -->
+        <dependency>
+            <groupId>com.googlecode.json-simple</groupId>
+            <artifactId>json-simple</artifactId>
+            <version>1.1.1</version>
+        </dependency>
+        
+        <!-- https://mvnrepository.com/artifact/org.nd4j/nd4j-cuda-7.5 -->
+        <!--        <dependency>
+            <groupId>org.nd4j</groupId>
+            <artifactId>nd4j-cuda-8.0</artifactId>
+            <version>0.9.1</version>
+        </dependency>-->
+        
+        <dependency>
+            <groupId>org.nd4j</groupId>
+            <artifactId>nd4j-native-platform</artifactId>
+            <!--<artifactId>nd4j-cuda-8.0-platform</artifactId>-->
+            <version>${nd4j.version}</version>
+        </dependency>
+        
+        <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-csv -->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-csv</artifactId>
+            <version>1.5</version>
+        </dependency>
+        
+        <!--lombok is used for code generation-->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.12</version>
+            <scope>provided</scope>
+        </dependency>
+        
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>1.7.25</version>
+        </dependency>
+        
+        <!--javafx is used for the gui-->
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-controls</artifactId>
+            <version>${javafx.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-swing</artifactId>
+            <version>${javafx.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-fxml</artifactId>
+            <version>${javafx.version}</version>
+        </dependency>
+    </dependencies>
+</project>

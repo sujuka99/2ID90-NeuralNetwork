@@ -1,0 +1,6 @@
+The files in this package are only intended to be used within the course 2ID90 of the TU/e.
+Any other other usage is explicitly forbidden, including, but not limited to, any form
+of distribution, either privately or publicly.
+
+Huub van de Wetering
+March 16, 2018

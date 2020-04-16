@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="429px" preserveAspectRatio="none" style="width:1303px;height:429px;" version="1.1" viewBox="0 0 1303 429" width="1303px" zoomAndPan="magnify">
+    <defs>
+        <filter height="300%" id="f47506giniqrv" width="300%" x="-1" y="-1">
+            <feGaussianBlur result="blurOut" stdDeviation="2.0"/>
+            <feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/>
+            <feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/>
+            <feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/>
+        </filter>
+    </defs>
+    <g>
+        <!--class Optimizer-->
+        <rect fill="#90EE90" filter="url(#f47506giniqrv)" height="86.4141" style="stroke: #A80036; stroke-width: 1.5;" width="300" x="814.5" y="8"/>
+        <rect fill="#90EE90" height="32" style="stroke: #A80036; stroke-width: 1.5;" width="300" x="814.5" y="8"/>
+        <ellipse cx="931.75" cy="24" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M934.7188,29.6406 Q934.1406,29.9375 933.5,30.0859 Q932.8594,30.2344 932.1563,30.2344 Q929.6563,30.2344 928.3359,28.5859 Q927.0156,26.9375 927.0156,23.8125 Q927.0156,20.6875 928.3359,19.0313 Q929.6563,17.375 932.1563,17.375 Q932.8594,17.375 933.5078,17.5313 Q934.1563,17.6875 934.7188,17.9844 L934.7188,20.7031 Q934.0938,20.125 933.5,19.8516 Q932.9063,19.5781 932.2813,19.5781 Q930.9375,19.5781 930.25,20.6484 Q929.5625,21.7188 929.5625,23.8125 Q929.5625,25.9063 930.25,26.9766 Q930.9375,28.0469 932.2813,28.0469 Q932.9063,28.0469 933.5,27.7734 Q934.0938,27.5 934.7188,26.9219 L934.7188,29.6406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="57" x="952.25" y="28.1543">Optimizer</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="815.5" x2="1113.5" y1="40" y2="40"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="113" x="820.5" y="54.2104">double learningRate</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="815.5" x2="1113.5" y1="60.8047" y2="60.8047"/>
+        <ellipse cx="825.5" cy="72.707" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="67" x="834.5" y="75.0151">BatchResult</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="85" x="905.5" y="75.0151">trainOnBatch</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="113" x="990.5" y="75.0151">( TensorPair batch )</text>
+        <ellipse cx="825.5" cy="85.5117" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="67" x="834.5" y="87.8198">BatchResult</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="52" x="905.5" y="87.8198">validate</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="151" x="957.5" y="87.8198">( List&lt;TensorPair&gt; batch )</text>
+        <!--class SGD-->
+        <rect fill="#90EE90" filter="url(#f47506giniqrv)" height="48" style="stroke: #A80036; stroke-width: 1.5;" width="58" x="686.5" y="27"/>
+        <rect fill="#90EE90" height="32" style="stroke: #A80036; stroke-width: 1.5;" width="58" x="686.5" y="27"/>
+        <ellipse cx="701.5" cy="43" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M704.4688,48.6406 Q703.8906,48.9375 703.25,49.0859 Q702.6094,49.2344 701.9063,49.2344 Q699.4063,49.2344 698.0859,47.5859 Q696.7656,45.9375 696.7656,42.8125 Q696.7656,39.6875 698.0859,38.0313 Q699.4063,36.375 701.9063,36.375 Q702.6094,36.375 703.2578,36.5313 Q703.9063,36.6875 704.4688,36.9844 L704.4688,39.7031 Q703.8438,39.125 703.25,38.8516 Q702.6563,38.5781 702.0313,38.5781 Q700.6875,38.5781 700,39.6484 Q699.3125,40.7188 699.3125,42.8125 Q699.3125,44.9063 700,45.9766 Q700.6875,47.0469 702.0313,47.0469 Q702.6563,47.0469 703.25,46.7734 Q703.8438,46.5 704.4688,45.9219 L704.4688,48.6406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="26" x="715.5" y="47.1543">SGD</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="687.5" x2="743.5" y1="59" y2="59"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="687.5" x2="743.5" y1="67" y2="67"/>
+        <!--class UpdateFunctionSupplier-->
+        <rect fill="#90EE90" filter="url(#f47506giniqrv)" height="60.8047" style="stroke: #A80036; stroke-width: 1.5;" width="203" x="397" y="20.5"/>
+        <rect fill="#90EE90" height="32" style="stroke: #A80036; stroke-width: 1.5;" width="203" x="397" y="20.5"/>
+        <ellipse cx="412" cy="36.5" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M414.9688,42.1406 Q414.3906,42.4375 413.75,42.5859 Q413.1094,42.7344 412.4063,42.7344 Q409.9063,42.7344 408.5859,41.0859 Q407.2656,39.4375 407.2656,36.3125 Q407.2656,33.1875 408.5859,31.5313 Q409.9063,29.875 412.4063,29.875 Q413.1094,29.875 413.7578,30.0313 Q414.4063,30.1875 414.9688,30.4844 L414.9688,33.2031 Q414.3438,32.625 413.75,32.3516 Q413.1563,32.0781 412.5313,32.0781 Q411.1875,32.0781 410.5,33.1484 Q409.8125,34.2188 409.8125,36.3125 Q409.8125,38.4063 410.5,39.4766 Q411.1875,40.5469 412.5313,40.5469 Q413.1563,40.5469 413.75,40.2734 Q414.3438,40 414.9688,39.4219 L414.9688,42.1406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="171" x="426" y="40.6543">Supplier&lt;UpdateFunction&gt;</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="398" x2="599" y1="52.5" y2="52.5"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="398" x2="599" y1="60.5" y2="60.5"/>
+        <ellipse cx="408" cy="72.4023" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="87" x="417" y="74.7104">UpdateFunction</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="21" x="508" y="74.7104">get</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="8" x="529" y="74.7104">()</text>
+        <!--class UpdateFunction-->
+        <rect fill="#90EE90" filter="url(#f47506giniqrv)" height="73.6094" style="stroke: #A80036; stroke-width: 1.5;" width="321" x="6" y="14"/>
+        <rect fill="#90EE90" height="32" style="stroke: #A80036; stroke-width: 1.5;" width="321" x="6" y="14"/>
+        <ellipse cx="112.25" cy="30" fill="#B4A7E5" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M108.1719,25.7656 L108.1719,23.6094 L115.5625,23.6094 L115.5625,25.7656 L113.0938,25.7656 L113.0938,33.8438 L115.5625,33.8438 L115.5625,36 L108.1719,36 L108.1719,33.8438 L110.6406,33.8438 L110.6406,25.7656 L108.1719,25.7656 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="100" x="132.75" y="34.1543">UpdateFunction</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="7" x2="326" y1="46" y2="46"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="7" x2="326" y1="54" y2="54"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="23" x="12" y="68.2104">void</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="45" x="39" y="68.2104">update</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="183" x="84" y="68.2104">(INDArray array, boolean isBias,</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="309" x="12" y="81.0151">double learningRate, int batchSize, INDArray gradient);</text>
+        <!--class GradientDescent-->
+        <rect fill="#90EE90" filter="url(#f47506giniqrv)" height="48" style="stroke: #A80036; stroke-width: 1.5;" width="138" x="97.5" y="203"/>
+        <rect fill="#90EE90" height="32" style="stroke: #A80036; stroke-width: 1.5;" width="138" x="97.5" y="203"/>
+        <ellipse cx="112.5" cy="219" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M115.4688,224.6406 Q114.8906,224.9375 114.25,225.0859 Q113.6094,225.2344 112.9063,225.2344 Q110.4063,225.2344 109.0859,223.5859 Q107.7656,221.9375 107.7656,218.8125 Q107.7656,215.6875 109.0859,214.0313 Q110.4063,212.375 112.9063,212.375 Q113.6094,212.375 114.2578,212.5313 Q114.9063,212.6875 115.4688,212.9844 L115.4688,215.7031 Q114.8438,215.125 114.25,214.8516 Q113.6563,214.5781 113.0313,214.5781 Q111.6875,214.5781 111,215.6484 Q110.3125,216.7188 110.3125,218.8125 Q110.3125,220.9063 111,221.9766 Q111.6875,223.0469 113.0313,223.0469 Q113.6563,223.0469 114.25,222.7734 Q114.8438,222.5 115.4688,221.9219 L115.4688,224.6406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="106" x="126.5" y="223.1543">GradientDescent</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="98.5" x2="234.5" y1="235" y2="235"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="98.5" x2="234.5" y1="243" y2="243"/>
+        <!--class Validator-->
+        <rect fill="#FFA500" filter="url(#f47506giniqrv)" height="60.8047" style="stroke: #A80036; stroke-width: 1.5;" width="319" x="975" y="196.5"/>
+        <rect fill="#FFA500" height="32" style="stroke: #A80036; stroke-width: 1.5;" width="319" x="975" y="196.5"/>
+        <ellipse cx="1102.25" cy="212.5" fill="#B4A7E5" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1098.1719,208.2656 L1098.1719,206.1094 L1105.5625,206.1094 L1105.5625,208.2656 L1103.0938,208.2656 L1103.0938,216.3438 L1105.5625,216.3438 L1105.5625,218.5 L1098.1719,218.5 L1098.1719,216.3438 L1100.6406,216.3438 L1100.6406,208.2656 L1098.1719,208.2656 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="56" x="1122.75" y="216.6543">Validator</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="976" x2="1293" y1="228.5" y2="228.5"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="976" x2="1293" y1="236.5" y2="236.5"/>
+        <ellipse cx="986" cy="248.4023" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="38" x="995" y="250.7104">double</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="52" x="1037" y="250.7104">validate</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="199" x="1089" y="250.7104">( Tensor label, Tensor prediction );</text>
+        <!--class Regression-->
+        <rect fill="#FFA500" filter="url(#f47506giniqrv)" height="48" style="stroke: #A80036; stroke-width: 1.5;" width="102" x="1189.5" y="366.5"/>
+        <rect fill="#FFA500" height="32" style="stroke: #A80036; stroke-width: 1.5;" width="102" x="1189.5" y="366.5"/>
+        <ellipse cx="1204.5" cy="382.5" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1207.4688,388.1406 Q1206.8906,388.4375 1206.25,388.5859 Q1205.6094,388.7344 1204.9063,388.7344 Q1202.4063,388.7344 1201.0859,387.0859 Q1199.7656,385.4375 1199.7656,382.3125 Q1199.7656,379.1875 1201.0859,377.5313 Q1202.4063,375.875 1204.9063,375.875 Q1205.6094,375.875 1206.2578,376.0313 Q1206.9063,376.1875 1207.4688,376.4844 L1207.4688,379.2031 Q1206.8438,378.625 1206.25,378.3516 Q1205.6563,378.0781 1205.0313,378.0781 Q1203.6875,378.0781 1203,379.1484 Q1202.3125,380.2188 1202.3125,382.3125 Q1202.3125,384.4063 1203,385.4766 Q1203.6875,386.5469 1205.0313,386.5469 Q1205.6563,386.5469 1206.25,386.2734 Q1206.8438,386 1207.4688,385.4219 L1207.4688,388.1406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="70" x="1218.5" y="386.6543">Regression</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1190.5" x2="1290.5" y1="398.5" y2="398.5"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1190.5" x2="1290.5" y1="406.5" y2="406.5"/>
+        <!--class Classification-->
+        <rect fill="#FFA500" filter="url(#f47506giniqrv)" height="48" style="stroke: #A80036; stroke-width: 1.5;" width="114" x="1040.5" y="366.5"/>
+        <rect fill="#FFA500" height="32" style="stroke: #A80036; stroke-width: 1.5;" width="114" x="1040.5" y="366.5"/>
+        <ellipse cx="1055.5" cy="382.5" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1058.4688,388.1406 Q1057.8906,388.4375 1057.25,388.5859 Q1056.6094,388.7344 1055.9063,388.7344 Q1053.4063,388.7344 1052.0859,387.0859 Q1050.7656,385.4375 1050.7656,382.3125 Q1050.7656,379.1875 1052.0859,377.5313 Q1053.4063,375.875 1055.9063,375.875 Q1056.6094,375.875 1057.2578,376.0313 Q1057.9063,376.1875 1058.4688,376.4844 L1058.4688,379.2031 Q1057.8438,378.625 1057.25,378.3516 Q1056.6563,378.0781 1056.0313,378.0781 Q1054.6875,378.0781 1054,379.1484 Q1053.3125,380.2188 1053.3125,382.3125 Q1053.3125,384.4063 1054,385.4766 Q1054.6875,386.5469 1056.0313,386.5469 Q1056.6563,386.5469 1057.25,386.2734 Q1057.8438,386 1058.4688,385.4219 L1058.4688,388.1406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="82" x="1069.5" y="386.6543">Classification</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1041.5" x2="1153.5" y1="398.5" y2="398.5"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="1041.5" x2="1153.5" y1="406.5" y2="406.5"/>
+        <!--class Model-->
+        <rect fill="#FEFECE" filter="url(#f47506giniqrv)" height="112.0234" style="stroke: #A80036; stroke-width: 1.5;" width="182" x="757.5" y="171"/>
+        <ellipse cx="825.75" cy="187" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M828.7188,192.6406 Q828.1406,192.9375 827.5,193.0859 Q826.8594,193.2344 826.1563,193.2344 Q823.6563,193.2344 822.3359,191.5859 Q821.0156,189.9375 821.0156,186.8125 Q821.0156,183.6875 822.3359,182.0313 Q823.6563,180.375 826.1563,180.375 Q826.8594,180.375 827.5078,180.5313 Q828.1563,180.6875 828.7188,180.9844 L828.7188,183.7031 Q828.0938,183.125 827.5,182.8516 Q826.9063,182.5781 826.2813,182.5781 Q824.9375,182.5781 824.25,183.6484 Q823.5625,184.7188 823.5625,186.8125 Q823.5625,188.9063 824.25,189.9766 Q824.9375,191.0469 826.2813,191.0469 Q826.9063,191.0469 827.5,190.7734 Q828.0938,190.5 828.7188,189.9219 L828.7188,192.6406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="37" x="846.25" y="191.1543">Model</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="758.5" x2="938.5" y1="203" y2="203"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="135" x="763.5" y="217.2104">boolean inTrainingMode</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="758.5" x2="938.5" y1="223.8047" y2="223.8047"/>
+        <ellipse cx="768.5" cy="235.707" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="39" x="777.5" y="238.0151">Model</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="67" x="816.5" y="238.0151">(InputLayer)</text>
+        <ellipse cx="768.5" cy="248.5117" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="59" x="777.5" y="250.8198">addLayer</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="39" x="836.5" y="250.8198">(Layer)</text>
+        <ellipse cx="768.5" cy="261.3164" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="40" x="777.5" y="263.6245">Tensor</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="61" x="821.5" y="263.6245">inference</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="48" x="882.5" y="263.6245">(Tensor)</text>
+        <ellipse cx="768.5" cy="274.1211" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="98" x="777.5" y="276.4292">initializeLayers</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="58" x="875.5" y="276.4292">(Initializer)</text>
+        <!--class OutputLayer-->
+        <rect fill="#FFC0CB" filter="url(#f47506giniqrv)" height="60.8047" style="stroke: #A80036; stroke-width: 1.5;" width="242" x="727.5" y="360"/>
+        <rect fill="#FFC0CB" height="32" style="stroke: #A80036; stroke-width: 1.5;" width="242" x="727.5" y="360"/>
+        <ellipse cx="805.75" cy="376" fill="#B4A7E5" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M801.6719,371.7656 L801.6719,369.6094 L809.0625,369.6094 L809.0625,371.7656 L806.5938,371.7656 L806.5938,379.8438 L809.0625,379.8438 L809.0625,382 L801.6719,382 L801.6719,379.8438 L804.1406,379.8438 L804.1406,371.7656 L801.6719,371.7656 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="77" x="826.25" y="380.1543">OutputLayer</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="728.5" x2="968.5" y1="392" y2="392"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="728.5" x2="968.5" y1="400" y2="400"/>
+        <ellipse cx="738.5" cy="411.9023" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="38" x="747.5" y="414.2104">double</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="88" x="789.5" y="414.2104">calculateLoss</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="86" x="877.5" y="414.2104">(Tensor labels)</text>
+        <path d="M744.6797,51 C761.1622,51 777.6447,51 794.1272,51 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="none" points="794.2322,43.9999,814.2322,51,794.2322,57.9999,794.2322,43.9999" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M605.1922,51 C635.0659,51 665.1224,51 686.2996,51 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#A80036" points="600.0111,51,609.0111,55,605.0111,51,609.0111,47,600.0111,51" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="50" x="618.25" y="44.0669">updater</text>
+        <path d="M332.4228,51 C354.345,51 376.269,51 396.6655,51 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#A80036" points="327.1512,51,336.1512,55,332.1512,51,336.1512,47,327.1512,51" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="30" x="347" y="44.0669">uses</text>
+        <path d="M166.5,108.7643 C166.5,140.7637 166.5,178.8352 166.5,202.9602 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="none" points="159.5001,108.3251,166.5,88.3251,173.5001,108.325,159.5001,108.3251" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1165.5217,274.8495 C1184.9757,304.8563 1209.2307,342.2685 1224.7916,366.2705 " fill="none" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/>
+        <polygon fill="none" points="1159.4441,278.3429,1154.4378,257.7531,1171.1914,270.7269,1159.4441,278.3429" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1123.0939,277.4025 C1116.4066,306.9534 1108.2618,342.9446 1102.9831,366.2705 " fill="none" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/>
+        <polygon fill="none" points="1116.2988,275.7148,1127.5406,257.7531,1129.9535,278.8049,1116.2988,275.7148" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M1006.0867,94.0544 C1035.3436,124.344 1073.9805,164.3445 1101.2049,192.5297 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#A80036" points="1104.8009,196.2527,1101.4252,187.0004,1101.3272,192.6564,1095.6712,192.5584,1104.8009,196.2527" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M936.1232,94.0544 C921.7897,115.8019 904.1566,142.5555 888.4754,166.3477 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#A80036" points="885.5713,170.7538,893.864,165.4405,888.3229,166.579,887.1844,161.0379,885.5713,170.7538" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="40" x="913.5" y="137.0669">model</text>
+        <path d="M848.5,283.2674 C848.5,306.9408 848.5,333.7818 848.5,354.6881 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#A80036" points="848.5,359.8698,852.5,350.8698,848.5,354.8698,844.5,350.8698,848.5,359.8698" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="77" x="849.5" y="326.0669">outputLayer</text>
+        <!--
+@startuml
+class Optimizer #lightgreen {
+    double learningRate
+    +BatchResult <b>trainOnBatch</b>( TensorPair batch )
+    +BatchResult <b>validate</b>( List<TensorPair> batch )
+}
+class SGD #lightgreen
+
+ SGD -|> Optimizer
+
+class "Supplier<UpdateFunction>" as UpdateFunctionSupplier
+UpdateFunctionSupplier <- SGD: updater
+UpdateFunction <- UpdateFunctionSupplier : uses
+
+class UpdateFunctionSupplier #lightgreen {
+  +UpdateFunction <b>get</b>()
+}
+
+interface UpdateFunction #lightgreen {
+ void <b>update</b>(INDArray array, boolean isBias,
+ double learningRate, int batchSize, INDArray gradient);
+}
+
+class GradientDescent #lightgreen
+
+
+UpdateFunction <|- - GradientDescent
+interface Validator #orange {
+    +double <b>validate</b>( Tensor label, Tensor prediction );
+}
+
+class Regression #orange
+class Classification #orange
+
+Validator <|.. Regression
+Validator <|.. Classification
+Optimizer - -> Validator
+Optimizer - -> Model: model
+class Model {
+    boolean inTrainingMode
+    +<b>Model</b>(InputLayer)
+    +<b>addLayer</b>(Layer)
+    +Tensor <b>inference</b>(Tensor)
+    +<b>initializeLayers</b>(Initializer)
+}
+
+Model o- - Layer: layers
+Model - -> OutputLayer: outputLayer
+
+Gaussian .|> Initializer
+Initializer <. Model: uses
+interface OutputLayer #pink {
+ +double <b>calculateLoss</b>(Tensor labels)
+ }
+class Layer #pink
+hide Initializer
+hide Gaussian
+hide Layer
+@enduml
+
+PlantUML version 2017.11(Wed Apr 19 18:18:59 CEST 2017)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 1.8.0_171-b11
+Operating System: Linux
+OS Version: 4.20.14-100.fc28.x86_64
+Default Encoding: UTF-8
+Language: en
+Country: US
+-->
+    </g>
+</svg>

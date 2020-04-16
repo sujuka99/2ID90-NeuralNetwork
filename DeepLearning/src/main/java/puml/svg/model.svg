@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="391px" preserveAspectRatio="none" style="width:638px;height:391px;" version="1.1" viewBox="0 0 638 391" width="638px" zoomAndPan="magnify">
+    <defs>
+        <filter height="300%" id="fb7ahajohjexv" width="300%" x="-1" y="-1">
+            <feGaussianBlur result="blurOut" stdDeviation="2.0"/>
+            <feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/>
+            <feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/>
+            <feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/>
+        </filter>
+    </defs>
+    <g>
+        <!--class Optimizer-->
+        <rect fill="#FEFECE" filter="url(#fb7ahajohjexv)" height="48" style="stroke: #A80036; stroke-width: 1.5;" width="89" x="368.5" y="8"/>
+        <ellipse cx="383.5" cy="24" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M386.4688,29.6406 Q385.8906,29.9375 385.25,30.0859 Q384.6094,30.2344 383.9063,30.2344 Q381.4063,30.2344 380.0859,28.5859 Q378.7656,26.9375 378.7656,23.8125 Q378.7656,20.6875 380.0859,19.0313 Q381.4063,17.375 383.9063,17.375 Q384.6094,17.375 385.2578,17.5313 Q385.9063,17.6875 386.4688,17.9844 L386.4688,20.7031 Q385.8438,20.125 385.25,19.8516 Q384.6563,19.5781 384.0313,19.5781 Q382.6875,19.5781 382,20.6484 Q381.3125,21.7188 381.3125,23.8125 Q381.3125,25.9063 382,26.9766 Q382.6875,28.0469 384.0313,28.0469 Q384.6563,28.0469 385.25,27.7734 Q385.8438,27.5 386.4688,26.9219 L386.4688,29.6406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="57" x="397.5" y="28.1543">Optimizer</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="369.5" x2="456.5" y1="40" y2="40"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="369.5" x2="456.5" y1="48" y2="48"/>
+        <!--class Model-->
+        <rect fill="#FEFECE" filter="url(#fb7ahajohjexv)" height="112.0234" style="stroke: #A80036; stroke-width: 1.5;" width="182" x="322" y="133"/>
+        <ellipse cx="390.25" cy="149" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M393.2188,154.6406 Q392.6406,154.9375 392,155.0859 Q391.3594,155.2344 390.6563,155.2344 Q388.1563,155.2344 386.8359,153.5859 Q385.5156,151.9375 385.5156,148.8125 Q385.5156,145.6875 386.8359,144.0313 Q388.1563,142.375 390.6563,142.375 Q391.3594,142.375 392.0078,142.5313 Q392.6563,142.6875 393.2188,142.9844 L393.2188,145.7031 Q392.5938,145.125 392,144.8516 Q391.4063,144.5781 390.7813,144.5781 Q389.4375,144.5781 388.75,145.6484 Q388.0625,146.7188 388.0625,148.8125 Q388.0625,150.9063 388.75,151.9766 Q389.4375,153.0469 390.7813,153.0469 Q391.4063,153.0469 392,152.7734 Q392.5938,152.5 393.2188,151.9219 L393.2188,154.6406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="37" x="410.75" y="153.1543">Model</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="323" x2="503" y1="165" y2="165"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="135" x="328" y="179.2104">boolean inTrainingMode</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="323" x2="503" y1="185.8047" y2="185.8047"/>
+        <ellipse cx="333" cy="197.707" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="39" x="342" y="200.0151">Model</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="67" x="381" y="200.0151">(InputLayer)</text>
+        <ellipse cx="333" cy="210.5117" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="59" x="342" y="212.8198">addLayer</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="39" x="401" y="212.8198">(Layer)</text>
+        <ellipse cx="333" cy="223.3164" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="40" x="342" y="225.6245">Tensor</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="61" x="386" y="225.6245">inference</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="48" x="447" y="225.6245">(Tensor)</text>
+        <ellipse cx="333" cy="236.1211" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="98" x="342" y="238.4292">initializeLayers</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="58" x="440" y="238.4292">(Initializer)</text>
+        <!--class Layer-->
+        <rect fill="#FFC0CB" filter="url(#fb7ahajohjexv)" height="48" style="stroke: #A80036; stroke-width: 1.5;" width="65" x="286.5" y="328.5"/>
+        <rect fill="#FFC0CB" height="32" style="stroke: #A80036; stroke-width: 1.5;" width="65" x="286.5" y="328.5"/>
+        <ellipse cx="301.5" cy="344.5" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M304.4688,350.1406 Q303.8906,350.4375 303.25,350.5859 Q302.6094,350.7344 301.9063,350.7344 Q299.4063,350.7344 298.0859,349.0859 Q296.7656,347.4375 296.7656,344.3125 Q296.7656,341.1875 298.0859,339.5313 Q299.4063,337.875 301.9063,337.875 Q302.6094,337.875 303.2578,338.0313 Q303.9063,338.1875 304.4688,338.4844 L304.4688,341.2031 Q303.8438,340.625 303.25,340.3516 Q302.6563,340.0781 302.0313,340.0781 Q300.6875,340.0781 300,341.1484 Q299.3125,342.2188 299.3125,344.3125 Q299.3125,346.4063 300,347.4766 Q300.6875,348.5469 302.0313,348.5469 Q302.6563,348.5469 303.25,348.2734 Q303.8438,348 304.4688,347.4219 L304.4688,350.1406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="33" x="315.5" y="348.6543">Layer</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="287.5" x2="350.5" y1="360.5" y2="360.5"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="287.5" x2="350.5" y1="368.5" y2="368.5"/>
+        <!--class OutputLayer-->
+        <rect fill="#FFC0CB" filter="url(#fb7ahajohjexv)" height="60.8047" style="stroke: #A80036; stroke-width: 1.5;" width="242" x="387" y="322"/>
+        <rect fill="#FFC0CB" height="32" style="stroke: #A80036; stroke-width: 1.5;" width="242" x="387" y="322"/>
+        <ellipse cx="465.25" cy="338" fill="#B4A7E5" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M461.1719,333.7656 L461.1719,331.6094 L468.5625,331.6094 L468.5625,333.7656 L466.0938,333.7656 L466.0938,341.8438 L468.5625,341.8438 L468.5625,344 L461.1719,344 L461.1719,341.8438 L463.6406,341.8438 L463.6406,333.7656 L461.1719,333.7656 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="77" x="485.75" y="342.1543">OutputLayer</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="388" x2="628" y1="354" y2="354"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="388" x2="628" y1="362" y2="362"/>
+        <ellipse cx="398" cy="373.9023" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="38" x="407" y="376.2104">double</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="88" x="449" y="376.2104">calculateLoss</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="86" x="537" y="376.2104">(Tensor labels)</text>
+        <!--class Gaussian-->
+        <rect fill="#FEFECE" filter="url(#fb7ahajohjexv)" height="48" style="stroke: #A80036; stroke-width: 1.5;" width="90" x="6" y="165"/>
+        <ellipse cx="21" cy="181" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M23.9688,186.6406 Q23.3906,186.9375 22.75,187.0859 Q22.1094,187.2344 21.4063,187.2344 Q18.9063,187.2344 17.5859,185.5859 Q16.2656,183.9375 16.2656,180.8125 Q16.2656,177.6875 17.5859,176.0313 Q18.9063,174.375 21.4063,174.375 Q22.1094,174.375 22.7578,174.5313 Q23.4063,174.6875 23.9688,174.9844 L23.9688,177.7031 Q23.3438,177.125 22.75,176.8516 Q22.1563,176.5781 21.5313,176.5781 Q20.1875,176.5781 19.5,177.6484 Q18.8125,178.7188 18.8125,180.8125 Q18.8125,182.9063 19.5,183.9766 Q20.1875,185.0469 21.5313,185.0469 Q22.1563,185.0469 22.75,184.7734 Q23.3438,184.5 23.9688,183.9219 L23.9688,186.6406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="58" x="35" y="185.1543">Gaussian</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="7" x2="95" y1="197" y2="197"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="7" x2="95" y1="205" y2="205"/>
+        <!--class Initializer-->
+        <rect fill="#FEFECE" filter="url(#fb7ahajohjexv)" height="48" style="stroke: #A80036; stroke-width: 1.5;" width="86" x="166" y="165"/>
+        <ellipse cx="181" cy="181" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M183.9688,186.6406 Q183.3906,186.9375 182.75,187.0859 Q182.1094,187.2344 181.4063,187.2344 Q178.9063,187.2344 177.5859,185.5859 Q176.2656,183.9375 176.2656,180.8125 Q176.2656,177.6875 177.5859,176.0313 Q178.9063,174.375 181.4063,174.375 Q182.1094,174.375 182.7578,174.5313 Q183.4063,174.6875 183.9688,174.9844 L183.9688,177.7031 Q183.3438,177.125 182.75,176.8516 Q182.1563,176.5781 181.5313,176.5781 Q180.1875,176.5781 179.5,177.6484 Q178.8125,178.7188 178.8125,180.8125 Q178.8125,182.9063 179.5,183.9766 Q180.1875,185.0469 181.5313,185.0469 Q182.1563,185.0469 182.75,184.7734 Q183.3438,184.5 183.9688,183.9219 L183.9688,186.6406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="54" x="195" y="185.1543">Initializer</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="167" x2="251" y1="197" y2="197"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="167" x2="251" y1="205" y2="205"/>
+        <path d="M413,56.1872 C413,75.219 413,102.6051 413,127.5704 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#A80036" points="413,132.8572,417,123.8572,413,127.8572,409,123.8572,413,132.8572" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="40" x="414" y="99.0669">model</text>
+        <path d="M374.0591,256.7323 C359.5048,282.0475 343.8877,309.2112 333.0172,328.119 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#FFFFFF" points="380.6505,245.2674,374.1923,248.4754,374.6695,255.6707,381.1278,252.4627,380.6505,245.2674" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="38" x="365" y="288.0669">layers</text>
+        <path d="M445.6936,245.2674 C459.6236,269.2417 475.4413,296.4647 487.6534,317.4825 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#A80036" points="490.2026,321.8698,489.1396,312.0785,487.6906,317.5466,482.2225,316.0976,490.2026,321.8698" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="77" x="473" y="288.0669">outputLayer</text>
+        <path d="M96.0547,189 C112.5741,189 129.0936,189 145.613,189 " fill="none" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/>
+        <polygon fill="none" points="145.7632,181.9999,165.7631,189,145.7631,195.9999,145.7632,181.9999" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M257.6111,189 C276.9187,189 299.7803,189 321.9445,189 " fill="none" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/>
+        <polygon fill="#A80036" points="252.2632,189,261.2632,193,257.2632,189,261.2632,185,252.2632,189" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="30" x="272" y="182.0669">uses</text>
+        <!--
+@startuml
+Optimizer - -> Model: model
+class Model {
+    boolean inTrainingMode
+    +<b>Model</b>(InputLayer)
+    +<b>addLayer</b>(Layer)
+    +Tensor <b>inference</b>(Tensor)
+    +<b>initializeLayers</b>(Initializer)
+}
+
+Model o- - Layer: layers
+Model - -> OutputLayer: outputLayer
+
+Gaussian .|> Initializer
+Initializer <. Model: uses
+interface OutputLayer #pink {
+ +double <b>calculateLoss</b>(Tensor labels)
+ }
+class Layer #pink
+@enduml
+
+PlantUML version 2017.11(Wed Apr 19 18:18:59 CEST 2017)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 1.8.0_171-b11
+Operating System: Linux
+OS Version: 4.20.14-100.fc28.x86_64
+Default Encoding: UTF-8
+Language: en
+Country: US
+-->
+    </g>
+</svg>

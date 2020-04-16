@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="366px" preserveAspectRatio="none" style="width:657px;height:366px;" version="1.1" viewBox="0 0 657 366" width="657px" zoomAndPan="magnify">
+    <defs>
+        <filter height="300%" id="f1rj9lzndb5jhx" width="300%" x="-1" y="-1">
+            <feGaussianBlur result="blurOut" stdDeviation="2.0"/>
+            <feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/>
+            <feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/>
+            <feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/>
+        </filter>
+    </defs>
+    <g>
+        <!--class BatchResult-->
+        <rect fill="#D3D3D3" filter="url(#f1rj9lzndb5jhx)" height="99.2188" style="stroke: #A80036; stroke-width: 1.5;" width="125" x="523" y="251.5"/>
+        <rect fill="#D3D3D3" height="32" style="stroke: #A80036; stroke-width: 1.5;" width="125" x="523" y="251.5"/>
+        <ellipse cx="546.1" cy="267.5" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M549.0688,273.1406 Q548.4906,273.4375 547.85,273.5859 Q547.2094,273.7344 546.5063,273.7344 Q544.0063,273.7344 542.6859,272.0859 Q541.3656,270.4375 541.3656,267.3125 Q541.3656,264.1875 542.6859,262.5313 Q544.0063,260.875 546.5063,260.875 Q547.2094,260.875 547.8578,261.0313 Q548.5063,261.1875 549.0688,261.4844 L549.0688,264.2031 Q548.4438,263.625 547.85,263.3516 Q547.2563,263.0781 546.6313,263.0781 Q545.2875,263.0781 544.6,264.1484 Q543.9125,265.2188 543.9125,267.3125 Q543.9125,269.4063 544.6,270.4766 Q545.2875,271.5469 546.6313,271.5469 Q547.2563,271.5469 547.85,271.2734 Q548.4438,271 549.0688,270.4219 L549.0688,273.1406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="75" x="561.9" y="271.6543">BatchResult</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="524" x2="647" y1="283.5" y2="283.5"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="28" x="529" y="297.7104">int id</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="66" x="529" y="310.5151">double loss</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="100" x="529" y="323.3198">double validation;</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="113" x="529" y="336.1245">double learningRate</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="524" x2="647" y1="342.7188" y2="342.7188"/>
+        <!--class Experiment-->
+        <rect fill="#D3D3D3" filter="url(#f1rj9lzndb5jhx)" height="112.0234" style="stroke: #A80036; stroke-width: 1.5;" width="442" x="11.5" y="245"/>
+        <rect fill="#D3D3D3" height="32" style="stroke: #A80036; stroke-width: 1.5;" width="442" x="11.5" y="245"/>
+        <ellipse cx="193.25" cy="261" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M196.2188,266.6406 Q195.6406,266.9375 195,267.0859 Q194.3594,267.2344 193.6563,267.2344 Q191.1563,267.2344 189.8359,265.5859 Q188.5156,263.9375 188.5156,260.8125 Q188.5156,257.6875 189.8359,256.0313 Q191.1563,254.375 193.6563,254.375 Q194.3594,254.375 195.0078,254.5313 Q195.6563,254.6875 196.2188,254.9844 L196.2188,257.7031 Q195.5938,257.125 195,256.8516 Q194.4063,256.5781 193.7813,256.5781 Q192.4375,256.5781 191.75,257.6484 Q191.0625,258.7188 191.0625,260.8125 Q191.0625,262.9063 191.75,263.9766 Q192.4375,265.0469 193.7813,265.0469 Q194.4063,265.0469 195,264.7734 Q195.5938,264.5 196.2188,263.9219 L196.2188,266.6406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="70" x="213.75" y="265.1543">Experiment</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="12.5" x2="452.5" y1="277" y2="277"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="150" x="17.5" y="291.2104">int epochs, int activations;</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="114" x="17.5" y="304.0151">InputReader reader;</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="12.5" x2="452.5" y1="310.6094" y2="310.6094"/>
+        <ellipse cx="22.5" cy="322.5117" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="69" x="31.5" y="324.8198">trainModel</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="316" x="100.5" y="324.8198">(Optimizer o, InputReader r, int epochs, int activations )</text>
+        <ellipse cx="22.5" cy="335.3164" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="108" x="31.5" y="337.6245">onBatchFinished</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="308" x="139.5" y="337.6245">(Optimizer sgd, TensorPair batch, BatchResult result);</text>
+        <ellipse cx="22.5" cy="348.1211" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="110" x="31.5" y="350.4292">onEpochFinished</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="151" x="141.5" y="350.4292">(Optimizer sgd, int epoch);</text>
+        <polygon fill="#FBFB77" filter="url(#f1rj9lzndb5jhx)" points="6,8,6,184.4609,459,184.4609,459,18,449,8,6,8" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#FBFB77" points="6,8,6,184.4609,228.5,184.4609,232.5,244.932,236.5,184.4609,459,184.4609,459,18,449,8,6,8" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="449" x2="449" y1="8" y2="18"/>
+        <line style="stroke: #A80036; stroke-width: 1.0;" x1="459" x2="449" y1="18" y2="18"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="79" x="12" y="25.0669">trainModel</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="353" x="91" y="25.0669">(Optimizer o, InputReader r, int epochs, int activations )</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="0" x="28" y="40.1997"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="21" x="28" y="40.1997">for</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="70" x="53" y="40.1997">epoch := 1</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="15" x="127" y="40.1997">to</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="50" x="146" y="40.1997">epochs:</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="0" x="44" y="55.3325"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-style="italic" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="226" x="44" y="55.3325">// get and shuffle training data</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="252" x="44" y="70.4653">batches := r.getTrainingBatchIterator();</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="0" x="16" y="85.5981"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="0" x="44" y="100.731"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-style="italic" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="315" x="44" y="100.731">// for a single epoch train using all batches</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="212" x="44" y="115.8638">o.model.setInTrainingMode(true);</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="0" x="44" y="130.9966"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="21" x="44" y="130.9966">for</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="36" x="69" y="130.9966">batch</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="13" x="109" y="130.9966">in</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="51" x="126" y="130.9966">batches</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="285" x="60" y="146.1294">BatchResult result := o.trainOnBatch(batch);</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="207" x="60" y="161.2622">onBatchFinished(o,batch,result);</text>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="172" x="44" y="176.395">onEpochFinished(o,epoch);</text>
+        <path d="M453.5538,301 C476.5415,301 498.4502,301 517.577,301 " fill="none" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/>
+        <polygon fill="#A80036" points="522.8966,301,513.8966,297,517.8966,301,513.8966,305,522.8966,301" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="30" x="473.25" y="294.0669">uses</text>
+        <!--
+@startuml
+class GraphPanel #lightgrey {
+   +<b>add</b>(Number x, Number y)
+}
+
+class BatchResult #lightgrey {
+    int id
+    double loss
+    double validation;
+    double learningRate
+}
+
+class Experiment #lightgrey {
+    int epochs, int activations;
+    InputReader reader;
+    +<b>trainModel</b>(Optimizer o, InputReader r, int epochs, int activations )
+    +<b>onBatchFinished</b>(Optimizer sgd, TensorPair batch, BatchResult result);
+    +<b>onEpochFinished</b>(Optimizer sgd, int epoch);
+}
+class GUIExperiment #lightgrey
+Experiment ..> Optimizer:uses
+Experiment .> BatchResult: uses
+Experiment <|- - GUIExperiment
+GUIExperiment -> "*" GraphPanel
+note top of Experiment
+<b>trainModel</b>(Optimizer o, InputReader r, int epochs, int activations )
+    <b>for</b> epoch := 1 <b>to</b> epochs:
+        <b><i>// get and shuffle training data</i></b>
+        batches := r.getTrainingBatchIterator();
+
+        <b><i>// for a single epoch train using all batches</i></b>
+        o.model.setInTrainingMode(true);
+        <b>for</b> batch <b>in</b> batches
+            BatchResult result := o.trainOnBatch(batch);
+            onBatchFinished(o,batch,result);    
+        onEpochFinished(o,epoch); 
+end note
+hide GUIExperiment
+hide GraphPanel
+hide Optimizer
+@enduml
+
+PlantUML version 2017.11(Wed Apr 19 18:18:59 CEST 2017)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 1.8.0_171-b11
+Operating System: Linux
+OS Version: 4.20.14-100.fc28.x86_64
+Default Encoding: UTF-8
+Language: en
+Country: US
+-->
+    </g>
+</svg>

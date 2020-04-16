@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="655px" preserveAspectRatio="none" style="width:1173px;height:655px;" version="1.1" viewBox="0 0 1173 655" width="1173px" zoomAndPan="magnify">
+    <defs>
+        <filter height="300%" id="fb3u95x2tuk09" width="300%" x="-1" y="-1">
+            <feGaussianBlur result="blurOut" stdDeviation="2.0"/>
+            <feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/>
+            <feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/>
+            <feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/>
+        </filter>
+    </defs>
+    <g>
+        <!--class InputLayer-->
+        <rect fill="#FFC0CB" filter="url(#fb3u95x2tuk09)" height="48" style="stroke: #A80036; stroke-width: 1.5;" width="97" x="199" y="219.5"/>
+        <rect fill="#FFC0CB" height="32" style="stroke: #A80036; stroke-width: 1.5;" width="97" x="199" y="219.5"/>
+        <ellipse cx="214" cy="235.5" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M216.9688,241.1406 Q216.3906,241.4375 215.75,241.5859 Q215.1094,241.7344 214.4063,241.7344 Q211.9063,241.7344 210.5859,240.0859 Q209.2656,238.4375 209.2656,235.3125 Q209.2656,232.1875 210.5859,230.5313 Q211.9063,228.875 214.4063,228.875 Q215.1094,228.875 215.7578,229.0313 Q216.4063,229.1875 216.9688,229.4844 L216.9688,232.2031 Q216.3438,231.625 215.75,231.3516 Q215.1563,231.0781 214.5313,231.0781 Q213.1875,231.0781 212.5,232.1484 Q211.8125,233.2188 211.8125,235.3125 Q211.8125,237.4063 212.5,238.4766 Q213.1875,239.5469 214.5313,239.5469 Q215.1563,239.5469 215.75,239.2734 Q216.3438,239 216.9688,238.4219 L216.9688,241.1406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="65" x="228" y="239.6543">InputLayer</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="200" x2="295" y1="251.5" y2="251.5"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="200" x2="295" y1="259.5" y2="259.5"/>
+        <!--class TensorShape-->
+        <rect fill="#ADD8E6" filter="url(#fb3u95x2tuk09)" height="48" style="stroke: #A80036; stroke-width: 1.5;" width="115" x="6" y="46.5"/>
+        <rect fill="#ADD8E6" height="32" style="stroke: #A80036; stroke-width: 1.5;" width="115" x="6" y="46.5"/>
+        <ellipse cx="21" cy="62.5" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M23.9688,68.1406 Q23.3906,68.4375 22.75,68.5859 Q22.1094,68.7344 21.4063,68.7344 Q18.9063,68.7344 17.5859,67.0859 Q16.2656,65.4375 16.2656,62.3125 Q16.2656,59.1875 17.5859,57.5313 Q18.9063,55.875 21.4063,55.875 Q22.1094,55.875 22.7578,56.0313 Q23.4063,56.1875 23.9688,56.4844 L23.9688,59.2031 Q23.3438,58.625 22.75,58.3516 Q22.1563,58.0781 21.5313,58.0781 Q20.1875,58.0781 19.5,59.1484 Q18.8125,60.2188 18.8125,62.3125 Q18.8125,64.4063 19.5,65.4766 Q20.1875,66.5469 21.5313,66.5469 Q22.1563,66.5469 22.75,66.2734 Q23.3438,66 23.9688,65.4219 L23.9688,68.1406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="83" x="35" y="66.6543">TensorShape</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="7" x2="120" y1="78.5" y2="78.5"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="7" x2="120" y1="86.5" y2="86.5"/>
+        <!--class Layer-->
+        <rect fill="#FFC0CB" filter="url(#fb3u95x2tuk09)" height="124.8281" style="stroke: #A80036; stroke-width: 1.5;" width="526" x="240.5" y="8"/>
+        <rect fill="#FFC0CB" height="32" style="stroke: #A80036; stroke-width: 1.5;" width="526" x="240.5" y="8"/>
+        <ellipse cx="482.75" cy="24" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M485.7188,29.6406 Q485.1406,29.9375 484.5,30.0859 Q483.8594,30.2344 483.1563,30.2344 Q480.6563,30.2344 479.3359,28.5859 Q478.0156,26.9375 478.0156,23.8125 Q478.0156,20.6875 479.3359,19.0313 Q480.6563,17.375 483.1563,17.375 Q483.8594,17.375 484.5078,17.5313 Q485.1563,17.6875 485.7188,17.9844 L485.7188,20.7031 Q485.0938,20.125 484.5,19.8516 Q483.9063,19.5781 483.2813,19.5781 Q481.9375,19.5781 481.25,20.6484 Q480.5625,21.7188 480.5625,23.8125 Q480.5625,25.9063 481.25,26.9766 Q481.9375,28.0469 483.2813,28.0469 Q483.9063,28.0469 484.5,27.7734 Q485.0938,27.5 485.7188,26.9219 L485.7188,29.6406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="33" x="503.25" y="28.1543">Layer</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="241.5" x2="765.5" y1="40" y2="40"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="70" x="246.5" y="54.2104">String name</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="135" x="246.5" y="67.0151">boolean inTrainingMode</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="241.5" x2="765.5" y1="73.6094" y2="73.6094"/>
+        <ellipse cx="251.5" cy="85.5117" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="35" x="260.5" y="87.8198">Layer</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="282" x="295.5" y="87.8198">(String name, TensorShape in, TensorShape out)</text>
+        <ellipse cx="251.5" cy="98.3164" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="91" x="260.5" y="100.6245">abstract Tensor</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="61" x="355.5" y="100.6245">inference</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="48" x="416.5" y="100.6245">(Tensor)</text>
+        <ellipse cx="251.5" cy="111.1211" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="49" x="260.5" y="113.4292">INDArray</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="108" x="313.5" y="113.4292">backpropagation</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="101" x="421.5" y="113.4292">( INDArray input );</text>
+        <ellipse cx="251.5" cy="123.9258" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="23" x="260.5" y="126.2339">void</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="80" x="287.5" y="126.2339">updateLayer</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="393" x="367.5" y="126.2339">(Supplier&lt;UpdateFunction&gt; s,  float learningRate, int batchSize  ) { }</text>
+        <!--class OutputLayer-->
+        <rect fill="#FFC0CB" filter="url(#fb3u95x2tuk09)" height="48" style="stroke: #A80036; stroke-width: 1.5;" width="109" x="735" y="219.5"/>
+        <rect fill="#FFC0CB" height="32" style="stroke: #A80036; stroke-width: 1.5;" width="109" x="735" y="219.5"/>
+        <ellipse cx="750" cy="235.5" fill="#B4A7E5" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M745.9219,231.2656 L745.9219,229.1094 L753.3125,229.1094 L753.3125,231.2656 L750.8438,231.2656 L750.8438,239.3438 L753.3125,239.3438 L753.3125,241.5 L745.9219,241.5 L745.9219,239.3438 L748.3906,239.3438 L748.3906,231.2656 L745.9219,231.2656 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="77" x="764" y="239.6543">OutputLayer</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="736" x2="843" y1="251.5" y2="251.5"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="736" x2="843" y1="259.5" y2="259.5"/>
+        <!--class SimpleOutput-->
+        <rect fill="#FFC0CB" filter="url(#fb3u95x2tuk09)" height="48" style="stroke: #A80036; stroke-width: 1.5;" width="116" x="765.5" y="354"/>
+        <rect fill="#FFC0CB" height="32" style="stroke: #A80036; stroke-width: 1.5;" width="116" x="765.5" y="354"/>
+        <ellipse cx="780.5" cy="370" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M783.4688,375.6406 Q782.8906,375.9375 782.25,376.0859 Q781.6094,376.2344 780.9063,376.2344 Q778.4063,376.2344 777.0859,374.5859 Q775.7656,372.9375 775.7656,369.8125 Q775.7656,366.6875 777.0859,365.0313 Q778.4063,363.375 780.9063,363.375 Q781.6094,363.375 782.2578,363.5313 Q782.9063,363.6875 783.4688,363.9844 L783.4688,366.7031 Q782.8438,366.125 782.25,365.8516 Q781.6563,365.5781 781.0313,365.5781 Q779.6875,365.5781 779,366.6484 Q778.3125,367.7188 778.3125,369.8125 Q778.3125,371.9063 779,372.9766 Q779.6875,374.0469 781.0313,374.0469 Q781.6563,374.0469 782.25,373.7734 Q782.8438,373.5 783.4688,372.9219 L783.4688,375.6406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="84" x="794.5" y="374.1543">SimpleOutput</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="766.5" x2="880.5" y1="386" y2="386"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="766.5" x2="880.5" y1="394" y2="394"/>
+        <!--class OutputSoftmax-->
+        <rect fill="#FFC0CB" filter="url(#fb3u95x2tuk09)" height="48" style="stroke: #A80036; stroke-width: 1.5;" width="125" x="917" y="354"/>
+        <rect fill="#FFC0CB" height="32" style="stroke: #A80036; stroke-width: 1.5;" width="125" x="917" y="354"/>
+        <ellipse cx="932" cy="370" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M934.9688,375.6406 Q934.3906,375.9375 933.75,376.0859 Q933.1094,376.2344 932.4063,376.2344 Q929.9063,376.2344 928.5859,374.5859 Q927.2656,372.9375 927.2656,369.8125 Q927.2656,366.6875 928.5859,365.0313 Q929.9063,363.375 932.4063,363.375 Q933.1094,363.375 933.7578,363.5313 Q934.4063,363.6875 934.9688,363.9844 L934.9688,366.7031 Q934.3438,366.125 933.75,365.8516 Q933.1563,365.5781 932.5313,365.5781 Q931.1875,365.5781 930.5,366.6484 Q929.8125,367.7188 929.8125,369.8125 Q929.8125,371.9063 930.5,372.9766 Q931.1875,374.0469 932.5313,374.0469 Q933.1563,374.0469 933.75,373.7734 Q934.3438,373.5 934.9688,372.9219 L934.9688,375.6406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="93" x="946" y="374.1543">OutputSoftmax</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="918" x2="1041" y1="386" y2="386"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="918" x2="1041" y1="394" y2="394"/>
+        <!--class Loss-->
+        <rect fill="#F5DEB3" filter="url(#fb3u95x2tuk09)" height="73.6094" style="stroke: #A80036; stroke-width: 1.5;" width="528" x="636.5" y="463"/>
+        <rect fill="#F5DEB3" height="32" style="stroke: #A80036; stroke-width: 1.5;" width="528" x="636.5" y="463"/>
+        <ellipse cx="882.75" cy="479" fill="#B4A7E5" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M878.6719,474.7656 L878.6719,472.6094 L886.0625,472.6094 L886.0625,474.7656 L883.5938,474.7656 L883.5938,482.8438 L886.0625,482.8438 L886.0625,485 L878.6719,485 L878.6719,482.8438 L881.1406,482.8438 L881.1406,474.7656 L878.6719,474.7656 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="27" x="903.25" y="483.1543">Loss</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="637.5" x2="1163.5" y1="495" y2="495"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="637.5" x2="1163.5" y1="503" y2="503"/>
+        <ellipse cx="647.5" cy="514.9023" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="38" x="656.5" y="517.2104">double</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="91" x="698.5" y="517.2104">calculate_loss</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="339" x="789.5" y="517.2104">( INDArray labels, INDArray preoutput, Activation activation);</text>
+        <ellipse cx="647.5" cy="527.707" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="49" x="656.5" y="530.0151">INDArray</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="110" x="709.5" y="530.0151">computeGradient</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="339" x="819.5" y="530.0151">( INDArray labels, INDArray preoutput, Activation activation);</text>
+        <!--class L1-->
+        <rect fill="#F5DEB3" filter="url(#fb3u95x2tuk09)" height="48" style="stroke: #A80036; stroke-width: 1.5;" width="46" x="790.5" y="598"/>
+        <rect fill="#F5DEB3" height="32" style="stroke: #A80036; stroke-width: 1.5;" width="46" x="790.5" y="598"/>
+        <ellipse cx="805.5" cy="614" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M808.4688,619.6406 Q807.8906,619.9375 807.25,620.0859 Q806.6094,620.2344 805.9063,620.2344 Q803.4063,620.2344 802.0859,618.5859 Q800.7656,616.9375 800.7656,613.8125 Q800.7656,610.6875 802.0859,609.0313 Q803.4063,607.375 805.9063,607.375 Q806.6094,607.375 807.2578,607.5313 Q807.9063,607.6875 808.4688,607.9844 L808.4688,610.7031 Q807.8438,610.125 807.25,609.8516 Q806.6563,609.5781 806.0313,609.5781 Q804.6875,609.5781 804,610.6484 Q803.3125,611.7188 803.3125,613.8125 Q803.3125,615.9063 804,616.9766 Q804.6875,618.0469 806.0313,618.0469 Q806.6563,618.0469 807.25,617.7734 Q807.8438,617.5 808.4688,616.9219 L808.4688,619.6406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="14" x="819.5" y="618.1543">L1</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="791.5" x2="835.5" y1="630" y2="630"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="791.5" x2="835.5" y1="638" y2="638"/>
+        <!--class MSE-->
+        <rect fill="#F5DEB3" filter="url(#fb3u95x2tuk09)" height="48" style="stroke: #A80036; stroke-width: 1.5;" width="58" x="871.5" y="598"/>
+        <rect fill="#F5DEB3" height="32" style="stroke: #A80036; stroke-width: 1.5;" width="58" x="871.5" y="598"/>
+        <ellipse cx="886.5" cy="614" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M889.4688,619.6406 Q888.8906,619.9375 888.25,620.0859 Q887.6094,620.2344 886.9063,620.2344 Q884.4063,620.2344 883.0859,618.5859 Q881.7656,616.9375 881.7656,613.8125 Q881.7656,610.6875 883.0859,609.0313 Q884.4063,607.375 886.9063,607.375 Q887.6094,607.375 888.2578,607.5313 Q888.9063,607.6875 889.4688,607.9844 L889.4688,610.7031 Q888.8438,610.125 888.25,609.8516 Q887.6563,609.5781 887.0313,609.5781 Q885.6875,609.5781 885,610.6484 Q884.3125,611.7188 884.3125,613.8125 Q884.3125,615.9063 885,616.9766 Q885.6875,618.0469 887.0313,618.0469 Q887.6563,618.0469 888.25,617.7734 Q888.8438,617.5 889.4688,616.9219 L889.4688,619.6406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="26" x="900.5" y="618.1543">MSE</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="872.5" x2="928.5" y1="630" y2="630"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="872.5" x2="928.5" y1="638" y2="638"/>
+        <!--class CrossEntropy-->
+        <rect fill="#F5DEB3" filter="url(#fb3u95x2tuk09)" height="48" style="stroke: #A80036; stroke-width: 1.5;" width="115" x="965" y="598"/>
+        <rect fill="#F5DEB3" height="32" style="stroke: #A80036; stroke-width: 1.5;" width="115" x="965" y="598"/>
+        <ellipse cx="980" cy="614" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M982.9688,619.6406 Q982.3906,619.9375 981.75,620.0859 Q981.1094,620.2344 980.4063,620.2344 Q977.9063,620.2344 976.5859,618.5859 Q975.2656,616.9375 975.2656,613.8125 Q975.2656,610.6875 976.5859,609.0313 Q977.9063,607.375 980.4063,607.375 Q981.1094,607.375 981.7578,607.5313 Q982.4063,607.6875 982.9688,607.9844 L982.9688,610.7031 Q982.3438,610.125 981.75,609.8516 Q981.1563,609.5781 980.5313,609.5781 Q979.1875,609.5781 978.5,610.6484 Q977.8125,611.7188 977.8125,613.8125 Q977.8125,615.9063 978.5,616.9766 Q979.1875,618.0469 980.5313,618.0469 Q981.1563,618.0469 981.75,617.7734 Q982.3438,617.5 982.9688,616.9219 L982.9688,619.6406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="83" x="994" y="618.1543">CrossEntropy</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="966" x2="1079" y1="630" y2="630"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="966" x2="1079" y1="638" y2="638"/>
+        <!--class Flatten-->
+        <rect fill="#FFC0CB" filter="url(#fb3u95x2tuk09)" height="48" style="stroke: #A80036; stroke-width: 1.5;" width="76" x="331.5" y="219.5"/>
+        <rect fill="#FFC0CB" height="32" style="stroke: #A80036; stroke-width: 1.5;" width="76" x="331.5" y="219.5"/>
+        <ellipse cx="346.5" cy="235.5" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M349.4688,241.1406 Q348.8906,241.4375 348.25,241.5859 Q347.6094,241.7344 346.9063,241.7344 Q344.4063,241.7344 343.0859,240.0859 Q341.7656,238.4375 341.7656,235.3125 Q341.7656,232.1875 343.0859,230.5313 Q344.4063,228.875 346.9063,228.875 Q347.6094,228.875 348.2578,229.0313 Q348.9063,229.1875 349.4688,229.4844 L349.4688,232.2031 Q348.8438,231.625 348.25,231.3516 Q347.6563,231.0781 347.0313,231.0781 Q345.6875,231.0781 345,232.1484 Q344.3125,233.2188 344.3125,235.3125 Q344.3125,237.4063 345,238.4766 Q345.6875,239.5469 347.0313,239.5469 Q347.6563,239.5469 348.25,239.2734 Q348.8438,239 349.4688,238.4219 L349.4688,241.1406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="44" x="360.5" y="239.6543">Flatten</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="332.5" x2="406.5" y1="251.5" y2="251.5"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="332.5" x2="406.5" y1="259.5" y2="259.5"/>
+        <!--class Convolution2D-->
+        <rect fill="#FFC0CB" filter="url(#fb3u95x2tuk09)" height="48" style="stroke: #A80036; stroke-width: 1.5;" width="122" x="442.5" y="219.5"/>
+        <rect fill="#FFC0CB" height="32" style="stroke: #A80036; stroke-width: 1.5;" width="122" x="442.5" y="219.5"/>
+        <ellipse cx="457.5" cy="235.5" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M460.4688,241.1406 Q459.8906,241.4375 459.25,241.5859 Q458.6094,241.7344 457.9063,241.7344 Q455.4063,241.7344 454.0859,240.0859 Q452.7656,238.4375 452.7656,235.3125 Q452.7656,232.1875 454.0859,230.5313 Q455.4063,228.875 457.9063,228.875 Q458.6094,228.875 459.2578,229.0313 Q459.9063,229.1875 460.4688,229.4844 L460.4688,232.2031 Q459.8438,231.625 459.25,231.3516 Q458.6563,231.0781 458.0313,231.0781 Q456.6875,231.0781 456,232.1484 Q455.3125,233.2188 455.3125,235.3125 Q455.3125,237.4063 456,238.4766 Q456.6875,239.5469 458.0313,239.5469 Q458.6563,239.5469 459.25,239.2734 Q459.8438,239 460.4688,238.4219 L460.4688,241.1406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="90" x="471.5" y="239.6543">Convolution2D</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="443.5" x2="563.5" y1="251.5" y2="251.5"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="443.5" x2="563.5" y1="259.5" y2="259.5"/>
+        <!--class PoolMax2D-->
+        <rect fill="#FFC0CB" filter="url(#fb3u95x2tuk09)" height="48" style="stroke: #A80036; stroke-width: 1.5;" width="100" x="599.5" y="219.5"/>
+        <rect fill="#FFC0CB" height="32" style="stroke: #A80036; stroke-width: 1.5;" width="100" x="599.5" y="219.5"/>
+        <ellipse cx="614.5" cy="235.5" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M617.4688,241.1406 Q616.8906,241.4375 616.25,241.5859 Q615.6094,241.7344 614.9063,241.7344 Q612.4063,241.7344 611.0859,240.0859 Q609.7656,238.4375 609.7656,235.3125 Q609.7656,232.1875 611.0859,230.5313 Q612.4063,228.875 614.9063,228.875 Q615.6094,228.875 616.2578,229.0313 Q616.9063,229.1875 617.4688,229.4844 L617.4688,232.2031 Q616.8438,231.625 616.25,231.3516 Q615.6563,231.0781 615.0313,231.0781 Q613.6875,231.0781 613,232.1484 Q612.3125,233.2188 612.3125,235.3125 Q612.3125,237.4063 613,238.4766 Q613.6875,239.5469 615.0313,239.5469 Q615.6563,239.5469 616.25,239.2734 Q616.8438,239 617.4688,238.4219 L617.4688,241.1406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="68" x="628.5" y="239.6543">PoolMax2D</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="600.5" x2="698.5" y1="251.5" y2="251.5"/>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="600.5" x2="698.5" y1="259.5" y2="259.5"/>
+        <!--class FullyConnected-->
+        <rect fill="#FFC0CB" filter="url(#fb3u95x2tuk09)" height="99.2188" style="stroke: #A80036; stroke-width: 1.5;" width="225" x="879" y="194"/>
+        <rect fill="#FFC0CB" height="32" style="stroke: #A80036; stroke-width: 1.5;" width="225" x="879" y="194"/>
+        <ellipse cx="939.75" cy="210" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M942.7188,215.6406 Q942.1406,215.9375 941.5,216.0859 Q940.8594,216.2344 940.1563,216.2344 Q937.6563,216.2344 936.3359,214.5859 Q935.0156,212.9375 935.0156,209.8125 Q935.0156,206.6875 936.3359,205.0313 Q937.6563,203.375 940.1563,203.375 Q940.8594,203.375 941.5078,203.5313 Q942.1563,203.6875 942.7188,203.9844 L942.7188,206.7031 Q942.0938,206.125 941.5,205.8516 Q940.9063,205.5781 940.2813,205.5781 Q938.9375,205.5781 938.25,206.6484 Q937.5625,207.7188 937.5625,209.8125 Q937.5625,211.9063 938.25,212.9766 Q938.9375,214.0469 940.2813,214.0469 Q940.9063,214.0469 941.5,213.7734 Q942.0938,213.5 942.7188,212.9219 L942.7188,215.6406 Z "/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="95" x="960.25" y="214.1543">FullyConnected</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="880" x2="1103" y1="226" y2="226"/>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="108" x="885" y="240.2104">int inputs, outputs;</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="133" x="885" y="253.0151">INDArray bias, weights;</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="213" x="885" y="265.8198">INDArray biasUpdate, weightsUpdate;</text>
+        <text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="192" x="885" y="278.6245">INDArray lastInput, lastPreOutput;</text>
+        <line style="stroke: #A80036; stroke-width: 1.5;" x1="880" x2="1103" y1="285.2188" y2="285.2188"/>
+        <path d="M126.3313,87.7744 C132.0188,88.877 137.7184,89.817 143.25,90.5 C174.6446,94.3766 207.6717,95.9455 240.4656,95.9663 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#A80036" points="121.1166,86.7187,129.144,92.425,126.0172,87.7108,130.7313,84.584,121.1166,86.7187" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="73" x="144.25" y="86.5669">inputShape</text>
+        <path d="M126.3691,70.5 C157.6983,70.5 197.9191,70.5 240.3699,70.5 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#A80036" points="121.0223,70.5,130.0223,74.5,126.0223,70.5,130.0223,66.5,121.0223,70.5" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="83" x="139.25" y="63.5669">outputShape</text>
+        <path d="M387.6616,144.0303 C362.9783,160.1886 337.2124,177.4291 313.5,194 C301.9945,202.0403 289.626,211.1788 278.7411,219.3963 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="none" points="383.9594,138.0878,404.5386,133.0382,391.6001,149.819,383.9594,138.0878" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M800.5356,287.1553 C806.1175,309.2367 812.6818,335.2045 817.3595,353.7088 " fill="none" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/>
+        <polygon fill="none" points="793.6936,288.6515,795.5785,267.5459,807.2667,285.2204,793.6936,288.6515" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M839.9289,279.1984 C873.2921,302.816 916.139,333.1471 945.5061,353.9359 " fill="none" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/>
+        <polygon fill="none" points="835.7476,284.8149,823.4682,267.5459,843.8365,273.3882,835.7476,284.8149" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M838.7127,402.1033 C848.8138,418.1076 862.3406,439.5396 874.1623,458.2702 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#A80036" points="877.128,462.9691,875.707,453.2233,874.4593,458.7409,868.9418,457.4932,877.128,462.9691" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M963.8921,402.1033 C953.4409,418.2432 939.4151,439.9033 927.2138,458.7458 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="#A80036" points="924.4791,462.9691,932.7285,457.5889,927.1968,458.7722,926.0135,453.2405,924.4791,462.9691" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M861.9733,554.0259 C851.0995,569.2743 839.8055,585.1118 830.8575,597.6595 " fill="none" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/>
+        <polygon fill="none" points="856.6129,549.4864,873.9244,537.2669,868.0115,557.6149,856.6129,549.4864" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M900.5,557.4774 C900.5,571.6398 900.5,586.0563 900.5,597.6595 " fill="none" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/>
+        <polygon fill="none" points="893.5001,557.267,900.5,537.2669,907.5001,557.2669,893.5001,557.267" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M952.0722,551.5722 C968.0619,567.5619 984.9372,584.4372 998.1595,597.6595 " fill="none" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/>
+        <polygon fill="none" points="946.9593,556.3589,937.7669,537.2669,956.8589,546.4593,946.9593,556.3589" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M442.3662,149.4265 C422.7739,174.721 402.5074,200.8859 388.3373,219.1802 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="none" points="436.9626,144.9715,454.7439,133.4464,448.0307,153.5445,436.9626,144.9715" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M503.5,153.749 C503.5,177.6717 503.5,201.9264 503.5,219.1802 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="none" points="496.5001,153.4464,503.5,133.4464,510.5001,153.4463,496.5001,153.4464" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M569.805,149.0669 C591.2459,174.4728 613.4635,200.7992 628.9758,219.1802 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="none" points="564.1719,153.2455,556.6224,133.4464,574.871,144.2162,564.1719,153.2455" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M707.4728,139.6166 C757.9241,157.0555 811.7649,175.9577 861.5,194 C867.1756,196.0589 872.9825,198.1878 878.8409,200.3533 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="none" points="704.9426,146.1487,688.3185,133.0095,709.5079,132.9139,704.9426,146.1487" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M913.7335,305.7595 C892.4686,322.7841 870.668,340.2375 853.8232,353.7234 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="none" points="909.4326,300.2358,929.4203,293.2007,918.1823,311.1648,909.4326,300.2358" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <path d="M985.2549,313.4971 C983.9635,327.9719 982.6872,342.2768 981.6659,353.7234 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <polygon fill="none" points="978.316,312.4995,987.0657,293.2007,992.2606,313.7437,978.316,312.4995" style="stroke: #A80036; stroke-width: 1.0;"/>
+        <!--
+@startuml
+class InputLayer #pink
+
+class TensorShape #lightblue
+TensorShape <- Layer: inputShape
+TensorShape <- Layer: outputShape
+
+Layer <|- - InputLayer
+class Layer #pink {
+    String name
+    boolean inTrainingMode
+    +<b>Layer</b>(String name, TensorShape in, TensorShape out)
+    +abstract Tensor <b>inference</b>(Tensor)
+    +INDArray <b>backpropagation</b>( INDArray input );
+    +void <b>updateLayer</b>(Supplier<UpdateFunction> s,  float learningRate, int batchSize  ) { }
+}
+interface OutputLayer #pink
+OutputLayer <|.. SimpleOutput 
+OutputLayer <|.. OutputSoftmax 
+
+
+SimpleOutput - -> Loss
+OutputSoftmax - -> Loss
+
+interface Loss #wheat {
+    +double <b>calculate_loss</b>( INDArray labels, INDArray preoutput, Activation activation);
+    +INDArray <b>computeGradient</b>( INDArray labels, INDArray preoutput, Activation activation);
+}
+
+class L1 #wheat
+class MSE #wheat
+class CrossEntropy #wheat
+
+Loss <|.. L1
+Loss <|.. MSE
+Loss <|.. CrossEntropy
+
+class Flatten #pink
+class Convolution2D #pink
+class PoolMax2D #pink
+class DropOutLayer #pink
+class OutputSoftmax #pink
+class SimpleOutput #pink
+Layer <|- - Flatten
+Layer <|- - Convolution2D
+Layer <|- - PoolMax2D
+Layer <|- - DropOutLayer
+class FullyConnected #pink {
+   int inputs, outputs;
+   INDArray bias, weights;
+   INDArray biasUpdate, weightsUpdate;
+   INDArray lastInput, lastPreOutput;
+}
+
+Layer  <|- - FullyConnected
+FullyConnected <|- - SimpleOutput 
+FullyConnected <|- - OutputSoftmax 
+hide DropOutLayer
+@enduml
+
+PlantUML version 2017.11(Wed Apr 19 18:18:59 CEST 2017)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 1.8.0_171-b11
+Operating System: Linux
+OS Version: 4.20.14-100.fc28.x86_64
+Default Encoding: UTF-8
+Language: en
+Country: US
+-->
+    </g>
+</svg>
